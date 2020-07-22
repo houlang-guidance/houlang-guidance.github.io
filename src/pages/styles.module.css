@@ -24,6 +24,10 @@
   justify-content: center;
 }
 
+.getStarted{
+  background: white;
+}
+
 .features {
   display: flex;
   align-items: center;

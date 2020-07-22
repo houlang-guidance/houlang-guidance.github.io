@@ -15,45 +15,32 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'docs/freshman-manual/introduction',
+          activeBasePath: '新生手册',
+          label: '新生手册',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        {
+          to: 'docs/digital-life/introduction',
+          activeBasePath: '数字化生活',
+          label: '数字化生活',
+          position: 'left',
+        },
+        {
+          to: 'docs/cs-guidance/introduction',
+          activeBasePath: '计算机专业公益课',
+          label: '计算机专业公益课',
+          position: 'left',
+        },
+        { to: 'changelog', label: '更新内容' },
         {
           href: 'https://github.com/houlang-guidance/houlang.training',
           label: 'GitHub',
-          position: 'right',
         },
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: '关于我们',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/houlang-guidance',
-            },
-          ],
-        },
-      ],
       copyright: `后浪知识分享小组。Built with Docusaurus.`,
     },
   },
@@ -63,17 +50,14 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          path: 'changelog',
+          routeBasePath: 'changelog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
