@@ -34,8 +34,8 @@ module.exports = {
         },
         { to: 'changelog', label: '更新内容' },
         {
-          href: 'https://github.com/houlang-guidance/houlang.training',
-          label: 'GitHub',
+          to: 'docs/contribution/introduction',
+          label: '贡献指南',
         },
       ],
     },
