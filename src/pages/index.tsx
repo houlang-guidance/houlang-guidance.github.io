@@ -21,7 +21,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/freshman-manual/introduction/')}
+              to={useBaseUrl('docs/freshman/introduction/')}
             >
               开始阅读
             </Link>

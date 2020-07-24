@@ -15,26 +15,27 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/freshman-manual/introduction',
-          activeBasePath: '新生手册',
+          to: 'docs/freshman/introduction',
+          activeBasePath: 'docs/freshman',
           label: '新生手册',
           position: 'left',
         },
         {
           to: 'docs/digital-life/introduction',
-          activeBasePath: '数字化生活',
+          activeBasePath: 'docs/digital-life/',
           label: '数字化生活',
           position: 'left',
         },
         {
-          to: 'docs/cs-guidance/introduction',
-          activeBasePath: '计算机专业公益课',
+          to: 'docs/teach-yourself-cs/introduction',
+          activeBasePath: 'docs/teach-yourself-cs',
           label: '计算机专业公益课',
           position: 'left',
         },
         { to: 'changelog', label: '更新内容' },
         {
           to: 'docs/contribution/introduction',
+          activeBasePath: 'docs/contribution',
           label: '贡献指南',
         },
       ],
@@ -49,9 +50,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
         },
         blog: {
           showReadingTime: true,
