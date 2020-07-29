@@ -13,7 +13,7 @@ module.exports = {
         alt: '武林秘籍',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/freshman/introduction',
           activeBasePath: 'docs/freshman',
