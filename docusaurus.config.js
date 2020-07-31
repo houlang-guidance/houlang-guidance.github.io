@@ -36,6 +36,11 @@ module.exports = {
           label: '贡献指南',
           position: 'right',
         },
+        {
+          to: 'tools',
+          label: '百宝箱',
+          position: 'right',
+        },
       ],
     },
     footer: {
