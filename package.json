@@ -11,10 +11,12 @@
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.60",
     "@docusaurus/preset-classic": "^2.0.0-alpha.60",
+    "bootstrap": "^4.5.0",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.9",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "reactstrap": "^8.5.1"
   },
   "browserslist": {
     "production": [
@@ -30,6 +32,7 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.43",
+    "@types/reactstrap": "^8.5.0",
     "@docusaurus/module-type-aliases": "^2.0.0-alpha.60",
     "typescript": "^3.9.7"
   }
