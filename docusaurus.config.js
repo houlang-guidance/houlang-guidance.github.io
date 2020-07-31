@@ -59,9 +59,10 @@ module.exports = {
           routeBasePath: 'changelog',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       },
     ],
   ],
+  plugins: ['docusaurus-plugin-sass'],
 };
