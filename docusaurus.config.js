@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'houlang-guidance', // Usually your GitHub org/user name.
-  projectName: 'houlang.training', // Usually your repo name.
+  projectName: 'website', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '后浪修炼手册',
