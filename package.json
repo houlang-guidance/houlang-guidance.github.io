@@ -9,8 +9,8 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.60",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.60",
+    "@docusaurus/core": "^2.0.0-alpha.61",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.61",
     "bootstrap": "^4.5.0",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.9",
@@ -31,9 +31,9 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^16.9.43",
+    "@types/react": "^16.9.44",
     "@types/reactstrap": "^8.5.0",
-    "@docusaurus/module-type-aliases": "^2.0.0-alpha.60",
+    "@docusaurus/module-type-aliases": "^2.0.0-alpha.61",
     "typescript": "^3.9.7"
   }
 }
