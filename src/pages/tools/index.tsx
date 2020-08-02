@@ -9,7 +9,7 @@ export default () => (
       <h1 className="text-center m-5">神奇的百宝箱</h1>
       <Row>
         <Col sm={4}>
-          <Link to="tools/ask-better">技术提问</Link>
+          <Link to="/tools/ask-better">技术提问</Link>
         </Col>
       </Row>
     </Container>
