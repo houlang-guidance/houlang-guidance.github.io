@@ -1,10 +1,16 @@
 const 新生手册 = withPrefixPath('freshman/', ['introduction']);
 
-const 数字化生活 = withPrefixPath('digital-life/', ['introduction']);
+const 数字化生活 = withPrefixPath('digital-life/', [
+  'introduction',
+  'windows-install',
+]);
 
 const 计算机专业公益课 = withPrefixPath('teach-yourself-cs/', ['introduction']);
 
-const 贡献指南 = withPrefixPath('contribution/', ['introduction','style-library']);
+const 贡献指南 = withPrefixPath('contribution/', [
+  'introduction',
+  'style-library',
+]);
 
 /** 文档集合 */
 module.exports = {
