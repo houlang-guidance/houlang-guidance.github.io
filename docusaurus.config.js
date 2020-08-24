@@ -3,7 +3,7 @@ module.exports = {
   tagline: '分享中国大学生的自我修炼秘籍',
   url: 'https://houlang.training',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icons/favicon.ico',
   organizationName: 'houlang-guidance', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
   themeConfig: {
@@ -48,6 +48,32 @@ module.exports = {
       copyright: `后浪知识分享小组。Built with Docusaurus.`,
     },
   },
+  plugins: [
+    'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        offlineModeActivationStrategies: ['appInstalled', 'queryString'],
+        pwaHead: [
+          /* {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/logo.svg',
+          }, */
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+        ],
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -67,5 +93,4 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['docusaurus-plugin-sass'],
 };
