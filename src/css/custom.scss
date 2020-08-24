@@ -27,4 +27,8 @@ $primary: #25c2a0;
   padding: 0 var(--ifm-pre-padding);
 }
 
+.footer__col {
+  text-align: center;
+}
+
 @import '~bootstrap/scss/bootstrap';
