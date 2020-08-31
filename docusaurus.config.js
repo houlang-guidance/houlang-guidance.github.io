@@ -57,6 +57,9 @@ module.exports = {
       ],
       copyright: `后浪知识分享小组。Built with Docusaurus.`,
     },
+    googleAnalytics: {
+      trackingID: 'UA-176824317-1',
+    },
   },
   plugins: [
     'docusaurus-plugin-sass',
