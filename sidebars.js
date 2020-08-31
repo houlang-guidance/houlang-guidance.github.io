@@ -1,4 +1,7 @@
-const 新生手册 = withPrefixPath('freshman/', ['introduction']);
+const 新生手册 = withPrefixPath('freshman/', [
+  'introduction',
+  'avoid-prejudice',
+]);
 
 const 数字化生活 = withPrefixPath('digital-life/', [
   'introduction',
