@@ -11,7 +11,7 @@ module.exports = {
       title: '后浪修炼手册',
       logo: {
         alt: '武林秘籍',
-        src: 'img/logo.svg',
+        src: 'img/icons/navbar.png',
       },
       items: [
         {
@@ -71,7 +71,7 @@ module.exports = {
           /* {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/logo.svg',
+            href: '/img/icons/navbar.png',
           }, */
           {
             tagName: 'link',
