@@ -6,6 +6,7 @@ const 新生手册 = withPrefixPath('freshman/', [
 const 数字化生活 = withPrefixPath('digital-life/', [
   'introduction',
   'windows-install',
+  'windows-softwares-download',
 ]);
 
 const 计算机专业公益课 = withPrefixPath('teach-yourself-cs/', ['introduction']);
