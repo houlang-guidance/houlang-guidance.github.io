@@ -1,17 +1,17 @@
-const 新生手册 = withPrefixPath('freshman/', [
+const 新生手册 = withPrefixPath('freshman', [
   'introduction',
   'avoid-prejudice',
 ]);
 
-const 数字化生活 = withPrefixPath('digital-life/', [
+const 数字化生活 = withPrefixPath('digital-life', [
   'introduction',
   'windows-install',
   'windows-softwares-download',
 ]);
 
-const 计算机专业公益课 = withPrefixPath('teach-yourself-cs/', ['introduction']);
+const 计算机专业公益课 = withPrefixPath('teach-yourself-cs', ['introduction']);
 
-const 贡献指南 = withPrefixPath('contribution/', [
+const 贡献指南 = withPrefixPath('contribution', [
   'introduction',
   'style-library',
 ]);
@@ -33,7 +33,9 @@ module.exports = {
 function withPrefixPath(prefix, object) {
   if (Array.isArray(object))
     return object.map((item) =>
-      typeof item === 'string' ? prefix + item : withPrefixPath(prefix, item),
+      typeof item === 'string'
+        ? `${prefix}/${item}`
+        : withPrefixPath(prefix, item),
     );
   else if (typeof object === 'object')
     return Object.fromEntries(
